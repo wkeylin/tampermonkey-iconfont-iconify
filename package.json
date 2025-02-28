@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "esbuild": "^0.16.14"
+  },
+  "volta": {
+    "node": "16.20.2",
+    "pnpm": "7.33.7"
   }
 }

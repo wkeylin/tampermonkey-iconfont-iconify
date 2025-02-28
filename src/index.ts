@@ -72,7 +72,7 @@ window.iconfontRunMain = async () => {
           icons.reduce((obj, item) => {
             const svg = new SVG(item.show_svg);
             return Object.assign(obj, {
-              [toKebabCase(item.name)]: {
+              [toKebabCase(item.font_class || item.name)]: {
                 body: svg.getBody(),
                 ...svg.viewBox,
               },
